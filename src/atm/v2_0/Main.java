@@ -18,11 +18,11 @@ public class Main {
             e.printStackTrace();
         }
         bank.createAcc(person);
-        try {
-            Class.forName("atm.v2_0.bank.db.driver.MyDriverDB");
-        } catch (ClassNotFoundException e) {
-            System.err.println("Sorry, class not found");
-        }
+//        try {
+//            Class.forName("atm.v2_0.bank.db.driver.MyDriverDB");
+//        } catch (ClassNotFoundException e) {
+//            System.err.println("Sorry, class not found");
+//        }
         try {
             connection = DriverManager.getConnection("jdbc:newsql:bankdb");
             Statement statement = connection.createStatement();
