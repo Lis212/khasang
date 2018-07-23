@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="250.0" minWidth="395.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea fx:id="areaChat" layoutX="26.0" layoutY="52.0" minHeight="150.0" minWidth="200.0" prefHeight="350.0" prefWidth="400.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="15.0" />
+      <TextArea fx:id="listUser" layoutX="366.0" layoutY="34.0" minHeight="100.0" minWidth="100.0" prefHeight="300.0" prefWidth="170.0" AnchorPane.bottomAnchor="50.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0" />
+      <TextField fx:id="fieldInput" layoutX="26.0" layoutY="362.0" minHeight="25.0" minWidth="200.0" prefHeight="25.0" prefWidth="385.0" text="Введите сообщение..." AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="200.0" />
+      <Button fx:id="bttnSend" layoutX="415.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="170.0" text="Отправить" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0" />
+      <Label fx:id="usrInChat" layoutX="415.0" layoutY="15.0" prefHeight="16.0" prefWidth="170.0" text="Пользователей в чате:" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
+   </children>
+</AnchorPane>
